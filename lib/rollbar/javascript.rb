@@ -2,6 +2,7 @@ require "rollbar/javascript/version"
 
 module Rollbar
   module Javascript
-    # Your code goes here...
+    class Engine < ::Rails::Engine
+    end
   end
 end
